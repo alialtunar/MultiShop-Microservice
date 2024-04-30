@@ -2,6 +2,6 @@
 {
     public class CreateCategoryDto
     {
-        public String CategoryID { get; set; }
+        public String CategoryName { get; set; }
     }
 }

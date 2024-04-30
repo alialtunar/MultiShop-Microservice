@@ -13,7 +13,7 @@ namespace MultiShop.Catalog.Entities
 
         public String ProductInfo { get; set; }
 
-        public int ProductId { get; set; }
+        public String ProductId { get; set; }
 
         [BsonIgnore]
         public Product Product { get; set; }

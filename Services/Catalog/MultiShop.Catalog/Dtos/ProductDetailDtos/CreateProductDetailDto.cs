@@ -7,6 +7,6 @@
 
         public String ProductInfo { get; set; }
 
-        public int ProductId { get; set; }
+        public String ProductId { get; set; }
     }
 }

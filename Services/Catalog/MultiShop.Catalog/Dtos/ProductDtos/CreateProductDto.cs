@@ -10,5 +10,7 @@
         public String ProductImageUrl { get; set; }
 
         public String ProductDescription { get; set; }
+
+        public String CategoryId { get; set; }
     }
 }
