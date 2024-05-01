@@ -37,6 +37,7 @@ namespace MultiShop.Discount.Services
                 await connection.ExecuteAsync(query, paramaters);
             }
 
+
         }
 
         public async Task<List<ResultDiscountCouponDto>> GetAllDiscountCouponAsync()
