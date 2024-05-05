@@ -41,7 +41,7 @@ namespace MultiShop.Order.WebApi.Controllers
         [HttpDelete]
         public async Task<IActionResult> RemoveOrdering(int id)
         {
-            await _mediator.Send(new RemoveOrderingCommand(id);
+            await _mediator.Send(new RemoveOrderingCommand(id));
             return Ok("Başarıyla silindi");
         }
 

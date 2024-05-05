@@ -25,7 +25,7 @@ namespace MultiShop.Order.Application.Feautures.CQRS.Handlers.OrderDetailHandler
             {
                 OrderDetailId = x.OrderDetailId,
                 OrderingId = x.OrderingId,
-                PoructPrice = x.PoructPrice,
+                ProductPrice = x.ProductPrice,
                 ProductAmount = x.ProductAmount,
                 ProductName = x.ProductName,
                 ProductTotalPrice = x.ProductTotalPrice,
