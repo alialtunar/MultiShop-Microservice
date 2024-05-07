@@ -36,6 +36,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirements", "{44DE309D-D0A9-4BFA-8269-F191B1EC3F25}"
 	ProjectSection(SolutionItems) = preProject
 		PortainerCmd.txt = PortainerCmd.txt
+		PortNumbers.txt = PortNumbers.txt
 	EndProjectSection
 EndProject
 Global
