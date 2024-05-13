@@ -2,7 +2,7 @@
 {
     public class UpdateCategoryDto
     {
-        public String CategoryID { get; set; }
-        public String CategoryName { get; set; }
+        public string CategoryID { get; set; }
+        public string CategoryName { get; set; }
     }
 }
