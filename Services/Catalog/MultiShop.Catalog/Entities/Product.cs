@@ -7,19 +7,19 @@ namespace MultiShop.Catalog.Entities
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public String ProductID { get; set; }
+        public string ProductID { get; set; }
 
-        public String ProductName { get; set; }
+        public string ProductName { get; set; }
 
-        public Decimal ProductPrice { get; set; }
+        public decimal ProductPrice { get; set; }
 
-        public String ProductImageUrl { get; set; }
+        public string ProductImageUrl { get; set; }
 
-        public String ProductDescription { get; set; }
+        public string ProductDescription { get; set; }
 
         [BsonRepresentation(BsonType.ObjectId)]
 
-        public String CategoryId { get; set; }
+        public string CategoryId { get; set; }
 
         [BsonIgnore]
         public Category Category { get; set; }
